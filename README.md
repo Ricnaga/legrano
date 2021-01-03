@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Lacademi
+### <div align="right">🟢Status: finalizado😀 </div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
+<div align="center">Código para Frontend de um site de produtos de massa artesanal.</div>
+<br><br>
 
-## Available Scripts
+## <div align="center">SUMÁRIO</div>
+#### <div align="center">============</div>
+<!--ts-->
+* [Pré Requisitos](#Pre-requisitos)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Autoria](#Autor)
+* [Licença](#Licença)
+<!--te-->
 
-In the project directory, you can run:
+ ## Pre-requisitos
+<div align="center"> Para executar a aplicação é necessário algumas ferramentas pré-instaladas.</div>
 
-### `yarn start`
+* [Visual Studio Code](https://code.visualstudio.com/) : editor de código para executá-los
+* [Node.js](https://nodejs.org/en/) : interpretador de arquivos JS
+* [Git](https://git-scm.com) : para copiar o repositório de um modo mais automatizado
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Instalando e Iniciando Front End (páginas web)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+# Clone este repositório(caso ja tenha feito isso no passo anterior, pule para o próximo comando)
+$ git clone <https://github.com/Ricnaga/legrano>
 
-### `yarn test`
+# Acesse a pasta do projeto no terminal/cmd
+$ cd legrano
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Instale as dependências
+$ yarn
 
-### `yarn build`
+# Inicie a aplicação no lado do backend
+$ yarn start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# A aplicação abrirá automaticamente um navegador com o endereço <http://localhost:3000>
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Tecnologias utilizadas
+<div align="center"> Nesse projeto foi utilizado as seguintes tecnologias</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
+- [ReactJS](https://pt-br.reactjs.org/)
 
-### `yarn eject`
+## Autor
+<div align="center">Aplicaçao desenvolvida conforme minha criatividade.<br>
+Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aproveita e me adiciona
+<div align="center">
+<a href="https://www.linkedin.com/in/ricardo-nagatomy-56553254"><img src="https://img.shields.io/badge/-RicardoNaga-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
+<a href="https://app.rocketseat.com.br/me/ricardo-nagatomy-08130"><img src="https://img.shields.io/badge/-Rocketseat-000?style=flat-square&logo=&logoColor=white"></a></div></div>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licença
+<div align="center">
+<a href="https://img.shields.io/github/license/Ricnaga/legrano">
+<img src="https://img.shields.io/github/license/Ricnaga/legrano">
+</a>
+</div>
