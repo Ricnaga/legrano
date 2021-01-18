@@ -116,7 +116,7 @@ const Menu: React.FC = () => (
 
               <tr>
                 <td className="pasta">
-                  Nhoque c/ recheio de muçarela
+                  Nhoque de batata c/ recheio de muçarela
                 </td>
                 <td className="price">
                   R$ 30.00
