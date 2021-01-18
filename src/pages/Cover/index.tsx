@@ -5,11 +5,11 @@ import {
   SiFacebook,
 } from 'react-icons/si';
 import { Link } from 'react-router-dom';
+import Logo from '../../assets/legrano.png';
 import {
   Container,
   HeaderLogo,
   Content,
-  Logo,
   Contacts,
 } from './styles';
 
@@ -17,10 +17,7 @@ const Cover: React.FC = () => (
   <>
     <Container>
       <HeaderLogo>
-        <Logo>
-          <h1>Le Grano</h1>
-          <h2>culinária artesanal</h2>
-        </Logo>
+        <img src={Logo} alt="logo" />
       </HeaderLogo>
       <nav>
         <ul>

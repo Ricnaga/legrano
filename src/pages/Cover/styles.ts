@@ -102,27 +102,15 @@ export const HeaderLogo = styled.div`
     font-size: 18px;
     text-transform: uppercase;
   }
-`;
 
-export const Logo = styled.div`
-  margin-bottom:16px;
-  background-color: var(--content-color);
-  border-radius: 50%;
+  img{
+    margin-bottom:8px;
+    max-width:430px;
 
-  max-width:500px;
-  width:95vw;
-  height:28vh;
+    width:90vw;
+    height:28vh;
+  }
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-
-  transition: color 0.2s;
-
-  &:hover{
-      color:#B7950B;
-    }
 `;
 
 export const Content = styled.div`
