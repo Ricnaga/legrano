@@ -94,12 +94,12 @@ const Menu: React.FC = () => (
 
               <tr>
                 <td colSpan={2} className="pasta">
-                  Nhoque de batata
+                  Nhoque
                 </td>
               </tr>
               <tr>
                 <td>
-                  tradicional
+                  batata simples
                 </td>
                 <td className="price">
                   R$ 25.00
@@ -107,7 +107,7 @@ const Menu: React.FC = () => (
               </tr>
               <tr>
                 <td>
-                  c/ recheio de muçarela
+                  de mandioca
                 </td>
                 <td className="price">
                   R$ 25.00
@@ -116,7 +116,7 @@ const Menu: React.FC = () => (
 
               <tr>
                 <td className="pasta">
-                  Nhoque de mandioca
+                  Nhoque c/ recheio de muçarela
                 </td>
                 <td className="price">
                   R$ 30.00
