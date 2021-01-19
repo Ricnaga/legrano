@@ -32,7 +32,7 @@ const Cover: React.FC = () => (
       <Content>
 
         <Contacts>
-          <a href="https://api.whatsapp.com/send?phone=11910371645">
+          <a href="https://api.whatsapp.com/send?phone=5511910371645">
             <SiWhatsapp />
             (11) 91037-1645
           </a>
