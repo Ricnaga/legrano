@@ -17,7 +17,9 @@ const Menu: React.FC = () => (
           </nav>
           <table>
             <thead>
-              <th>Nosso cardápio</th>
+              <tr>
+                <th>Nosso cardápio</th>
+              </tr>
             </thead>
             <tbody>
               <tr>

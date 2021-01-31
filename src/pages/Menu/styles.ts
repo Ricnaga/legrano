@@ -45,6 +45,10 @@ export const SubLayer1 = styled.div`
 `;
 
 export const TableFood = styled.div`
+font-size:1em;
+width:100%;
+height:100%;
+
 nav {
   height: 5vh;
   width: 100%;
@@ -61,7 +65,7 @@ nav ul{
   list-style:none;
 
   li{
-    padding: 0 16px;
+    padding: 0 1em;
 
     a{
       text-transform:uppercase;
@@ -69,7 +73,7 @@ nav ul{
       color:#2C3E50;
 
       transition:color 0.2s, border 0.1s;
-      padding:8px 0;
+      padding:0.5em 0;
 
       &:hover{
         color:#B7950B;
@@ -93,7 +97,6 @@ nav ul{
 
   table{
     animation: ${appearFromBottom} 1s;
-    max-width:500px;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -102,20 +105,20 @@ nav ul{
     font-weight:500;
 
     th{
-      font-size:24px;
+      font-size:1.6rem;
     }
 
     .pasta{
       text-align:center;
       font-weight:700;
-      padding-top:8px;
+      padding-top:0.5em;
       border-top:1px solid;
     }
 
     .price{
       text-align:right;
       border: 1px solid;
-      padding:4px;
+      padding:0.1em;
       width:5vw;
 
       &:hover{
@@ -126,6 +129,11 @@ nav ul{
     tfoot{
       margin-left: auto;
       margin-right:0;
+    }
+  }
+  @media(max-width:420px){
+    th{
+      display:none;
     }
   }
 `;
