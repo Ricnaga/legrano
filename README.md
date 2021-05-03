@@ -1,27 +1,22 @@
-# Lacademi
-### <div align="right">🟢Status: finalizado😀 </div>
+# <div align="center"> Legrano </div>
+<img src="https://img.shields.io/github/license/Ricnaga/legrano">
 
-## Descrição do Projeto
-<div align="center">Código para Frontend de um site de produtos de massa artesanal.</div>
-<br><br>
+#### <div align="right">- Projeto Finalizado <div>
 
-## <div align="center">SUMÁRIO</div>
-#### <div align="center">============</div>
+### <div align="center"> Apicação front end abordando conceitos sobre: </div>
+
+#### 1. HTML
+#### 2. CSS
+#### 3. ReactJS: Components
+
+## <div align="center"> Sumário </div>
 <!--ts-->
-* [Pré Requisitos](#Pre-requisitos)
-* [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Autoria](#Autor)
-* [Licença](#Licença)
+   - [Requisitos](#<div-align="center">Requisitos</div>)
+   - [Tecnologias utilizadas](#<div-align="center">Tecnologias-utilizadas</div>)
+   - [Autor](#<div-align="center">Autor</div>)
 <!--te-->
-
- ## Pre-requisitos
-<div align="center"> Para executar a aplicação é necessário algumas ferramentas pré-instaladas.</div>
-
-* [Visual Studio Code](https://code.visualstudio.com/) : editor de código para executá-los
-* [Node.js](https://nodejs.org/en/) : interpretador de arquivos JS
-* [Git](https://git-scm.com) : para copiar o repositório de um modo mais automatizado
-
-### Instalando e Iniciando Front End (páginas web)
+## <div align="center">Requisitos</div>
+Para executar a aplicação é necessário instalar algumas ferramentas tais como um editor de códigos para realizar compilação dos mesmos. Nesse projeto foi utilizado o [Visual Studio Code](https://code.visualstudio.com/), [NodeJS](https://nodejs.org/en/) para compilação do código, [Git Bash](https://gitforwindows.org/) para baixar o repositório e baixar todas as dependências necessárias.
 
 ```bash
 # Clone este repositório(caso ja tenha feito isso no passo anterior, pule para o próximo comando)
@@ -39,24 +34,13 @@ $ yarn start
 # A aplicação abrirá automaticamente um navegador com o endereço <http://localhost:3000>
 ```
 
-## 🛠 Tecnologias utilizadas
-<div align="center"> Nesse projeto foi utilizado as seguintes tecnologias</div>
+##  <div align="center">Tecnologias utilizadas</div>
+- [HTML](https://www.w3.org/HTML)
+- [React JS](https://pt-br.reactjs.org/)
 
-- [Node.js](https://nodejs.org/en/)
-- [Express](https://expressjs.com/pt-br/)
-- [ReactJS](https://pt-br.reactjs.org/)
-
-## Autor
-<div align="center">Aplicaçao desenvolvida conforme minha criatividade.<br>
-Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aproveita e me adiciona
-<div align="center">
+## <div align="center">Autor</div>
+<div align="center">Atividade desenvolvida no curso ignite pela equipe <a href="https://rocketseat.com.br/">Rocketseat</a>, realizados por minha pessoa.
+Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aproveita e me adiciona.<br>
 <a href="https://www.linkedin.com/in/ricardo-nagatomy-56553254"><img src="https://img.shields.io/badge/-RicardoNaga-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
-<a href="https://app.rocketseat.com.br/me/ricardo-nagatomy-08130"><img src="https://img.shields.io/badge/-Rocketseat-000?style=flat-square&logo=&logoColor=white"></a></div></div>
-
-
-## Licença
-<div align="center">
-<a href="https://img.shields.io/github/license/Ricnaga/legrano">
-<img src="https://img.shields.io/github/license/Ricnaga/legrano">
-</a>
+<a href="https://app.rocketseat.com.br/me/ricardo-nagatomy-08130"><img src="https://img.shields.io/badge/-Rocketseat-000?style=flat-square&logo=&logoColor=white"></a>
 </div>

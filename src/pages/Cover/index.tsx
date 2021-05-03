@@ -1,54 +1,43 @@
 import React from 'react';
 import {
-  SiWhatsapp,
-  SiInstagram,
-  SiFacebook,
+  SiFacebook, SiInstagram, SiWhatsapp,
 } from 'react-icons/si';
-import { Link } from 'react-router-dom';
 import Logo from '../../assets/legrano.png';
+import { Nav } from '../../components/Nav';
 import {
-  Container,
-  HeaderLogo,
-  Content,
-  Contacts,
+  Contacts, Container,
+  Content, HeaderLogo,
 } from './styles';
 
-const Cover: React.FC = () => (
-  <>
-    <Container>
-      <HeaderLogo>
-        <img src={Logo} alt="logo" />
-      </HeaderLogo>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          |
-          <li><Link to="/menu">Cardápio</Link></li>
+export default function Cover() {
+  return (
+    <>
+      <Container>
+        <HeaderLogo>
+          <img src={Logo} alt="logo" />
+        </HeaderLogo>
+        <Nav />
 
-        </ul>
+        <Content>
 
-      </nav>
+          <Contacts>
+            <a href="https://api.whatsapp.com/send?phone=5511910371645">
+              <SiWhatsapp />
+              (11) 91037-1645
+            </a>
+            <a href="https://www.instagram.com/legrano_">
+              <SiInstagram />
+              @legrano_
+            </a>
+            <a href="https://pt-br.facebook.com/legrano.culinariaartesanal">
+              <SiFacebook />
+              /legrano.culinariaartesanal
+            </a>
+          </Contacts>
 
-      <Content>
-
-        <Contacts>
-          <a href="https://api.whatsapp.com/send?phone=5511910371645">
-            <SiWhatsapp />
-            (11) 91037-1645
-          </a>
-          <a href="https://www.instagram.com/legrano_">
-            <SiInstagram />
-            @legrano_
-          </a>
-          <a href="https://pt-br.facebook.com/legrano.culinariaartesanal">
-            <SiFacebook />
-            /legrano.culinariaartesanal
-          </a>
-        </Contacts>
-      </Content>
-      <footer>Aceitamos cartões de débito</footer>
-    </Container>
-  </>
-);
-
-export default Cover;
+        </Content>
+        <footer>Aceitamos cartões de débito</footer>
+      </Container>
+    </>
+  );
+}

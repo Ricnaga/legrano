@@ -25,6 +25,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+      "@typescript-eslint/explicit-module-boundary-types": "off",
       "prettier/prettier": "off",
       "no-use-before-define": "off",
       "react-hooks/rules-of-hooks": "error",
