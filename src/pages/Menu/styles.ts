@@ -21,7 +21,7 @@ export const Container = styled.div`
   flex:1;
 `;
 
-export const SubLayer1 = styled.div`
+export const Content = styled.div`
   width:98vw;
   height:98vh;
   border:8px solid var(--bg-color-2);
@@ -33,7 +33,7 @@ export const SubLayer1 = styled.div`
   flex-direction:column;
   flex:1;
 
-  font-size:1vw;
+  font-size:1rem;
 
   h4{
     margin-left:auto;
@@ -44,14 +44,15 @@ export const SubLayer1 = styled.div`
     font-family: 'Jura', sans-serif;
     color:var(--content-color);
   }
+
   @media(max-width:430px){
     h4{
-      font-size:3.6vw;
+      font-size:0.8rem;
     }
   }
 `;
 
-export const TableFood = styled.div`
+export const TableContainer = styled.div`
   width:100%;
   height:100%;
   background-color:var(--content-color);
@@ -61,92 +62,64 @@ export const TableFood = styled.div`
   justify-content:center;
   flex-direction:column;
 
-  font-size:1.2vw;
+  font-size:1.2rem;
   font-family: 'Jura', sans-serif;
 
   nav {
-    height: 5vh;
-
-    background-color: var(--content-color);
-
-    display: flex;
-    align-items: center;
     justify-content:center;
+    box-shadow:none;
+    margin-bottom:0.2rem;
   }
 
-  nav ul{
-    display:flex;
-    list-style:none;
-
-    li{
-      padding: 0 1vw;
-
-      a{
-        text-transform:uppercase;
-        text-decoration:none;
-        color:#2C3E50;
-
-        transition:color 0.2s, border 0.1s;
-        padding:0.5vw 0;
-
-        &:hover{
-          color:#B7950B;
-          border-bottom:2px solid;
-        }
-      }
-    }
+  h2{
+    margin-bottom:0.8rem;
   }
 
-  table{
-    animation: ${appearFromBottom} 1s;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
-
-    font-weight:500;
-
-    th{
-      font-size:1.6vw;
-    }
-
-    .pasta{
-      text-align:center;
-      font-weight:700;
-      padding-top:0.5vw;
-      border-top:1px solid;
-    }
-
-    .price{
-      text-align:right;
-      border: 1px solid;
-      padding:0.1vw;
-      width:5vw;
-
-      &:hover{
-        height:7vh;
-      }
-    }
-
-    tfoot{
-      margin-left: auto;
-      margin-right:0;
-    }
-  }
 
   @media(max-width:430px){
-    font-size:4vw;
+    font-size:0.8rem;
 
     nav {
       width:100%;
-      font-size:4.6vw;
-    }
-
-    table{
-      th{
-        font-size:4vw;
-      }
+      font-size:1.2rem;
     }
 
   }
+`;
+
+export const TableMenu = styled.table`
+    animation: ${appearFromBottom} 1s;
+    width:100%;
+    max-width: 700px;
+    padding: 0 0.4rem;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    tbody{
+      width:100%;
+      margin-bottom:0.4rem;
+
+      td:last-child{
+        border:1px black solid;
+        width:100%;
+        padding:0 0.2rem;
+      }
+
+      td:first-child{
+        border:none;
+      }
+
+      .title{
+        td:first-child{
+          text-align:center;
+          font-weight:600;
+          font-size:1rem;
+        }
+      }
+
+    }
+
 `;
