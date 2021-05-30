@@ -14,6 +14,7 @@
    - [Requisitos](#<div-align="center">Requisitos</div>)
    - [Tecnologias utilizadas](#<div-align="center">Tecnologias-utilizadas</div>)
    - [Autor](#<div-align="center">Autor</div>)
+   - [Demonstração](#<div-align="center">demonstração</div>)
 <!--te-->
 ## <div align="center">Requisitos</div>
 Para executar a aplicação é necessário instalar algumas ferramentas tais como um editor de códigos para realizar compilação dos mesmos. Nesse projeto foi utilizado o [Visual Studio Code](https://code.visualstudio.com/), [NodeJS](https://nodejs.org/en/) para compilação do código, [Git Bash](https://gitforwindows.org/) para baixar o repositório e baixar todas as dependências necessárias.
@@ -44,3 +45,8 @@ Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aprov
 <a href="https://www.linkedin.com/in/ricardo-nagatomy-56553254"><img src="https://img.shields.io/badge/-RicardoNaga-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
 <a href="https://app.rocketseat.com.br/me/ricardo-nagatomy-08130"><img src="https://img.shields.io/badge/-Rocketseat-000?style=flat-square&logo=&logoColor=white"></a>
 </div>
+
+#
+## <div align="center">Demonstração</div>
+### <div align="center"> [https://legrano.netlify.app](https://legrano.netlify.app/)</div>
+
